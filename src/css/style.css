@@ -6,20 +6,34 @@ section,div{
 }
 
 .minha-tabela {
-	background-color: #e8e8e8;
 	border-collapse: collapse;
+	margin-top: 20px;
+	font-size: 16px;
   }
-
-  .minha-tabela th {
-	background-color: #333;
-	color: #fff;
-  }
-
+  
+  .minha-tabela th,
   .minha-tabela td {
 	padding: 10px;
-	color: #333;
+	text-align: center;
   }
-
-  .minha-tabela td + td {
-	border-left: 10px solid #fff;
+  
+  .minha-tabela th {
+	background-color: #ccc;
   }
+  
+  .minha-tabela td {
+	border: 1px solid #ccc;
+  }
+  
+  .centralizar {
+	text-align: center;
+  }
+  
+  .minha-tabela tr:nth-child(even) {
+	background-color: #f2f2f2;
+  }
+  
+  .minha-tabela tr:hover {
+	background-color: #ddd;
+  }
+  
